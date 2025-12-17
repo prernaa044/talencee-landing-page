@@ -1,4 +1,4 @@
-# Talencee – Landing Page Clone
+Talencee – Landing Page Clone
 
 A responsive and dynamic clone of the Talencee landing page built as part of an assignment.
 
@@ -62,6 +62,3 @@ http://localhost:3000 (or 3001 if port is busy)
 
 Screenshots included to demonstrate UI and functionality.
 
-cd backend
-npm install
-node server.js

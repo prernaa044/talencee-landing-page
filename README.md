@@ -1,64 +1,102 @@
-Talencee – Landing Page Clone
+Talency Landing Page Clone
 
-A responsive and dynamic clone of the Talencee landing page built as part of an assignment.
+📌 Project Overview
 
---
+This project is a clone of the Talency landing page, developed as part of an assignment.
+The goal of this project is to replicate the UI and basic structure of the original Talency website using modern web technologies.
 
-## 🚀 Tech Stack
+The project is divided into frontend and backend folders and runs successfully in a local development environment.
 
-### Frontend
-- React.js
-- Tailwind CSS
-- CSS Animations
+⸻
 
-### Backend
-- Node.js
-- Express.js
-- MongoDB (local setup)
-- Nodemailer (configured)
+🛠 Tech Stack
 
----
+Frontend
+	•	React
+	•	HTML5
+	•	CSS3
+	•	JavaScript
+	•	npm
 
-## ✨ Features
+Backend
+	•	Node.js
+	•	Express.js
+	•	npm
 
-- Professional landing page UI inspired by Talencee
-- Dynamic sections (Hero, About, Services, Features, Jobs, Testimonials)
-- Jobs listing fetched via API
-- Job modal popup
-- CTA popup form
-- Resume upload field
-- Backend API integration
-- Clean and responsive design
-- Smooth animations and transitions
+	Project Structure
+	talency-landing-page/
+│
+├── frontend/        # React frontend
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── README.md
+│
+├── backend/         # Node.js backend
+│   ├── routes/
+│   ├── uploads/
+│   ├── app.js
+│   ├── server.js
+│   ├── package.json
+│   └── .env
+│
+└── README.md        # Project documentation
 
----
+🚀 How to Run the Project Locally
 
-## 🖥️ How to Run Locally
+Prerequisites
 
-### Backend
-cd backend
-npm install
-node server.js
+Make sure the following are installed on your system:
+	•	Node.js (v16 or compatible)
+	•	npm
 
-Backend runs on:
-http://localhost:5000
+	Frontend Setup:
+	cd frontend
+	npm install
+	npm start
 
-##Frontend
-cd frontend
-npm install
-npm start
+	Fronten will run on:
+	http://localhost:3000
 
-Frontend runs on:
-code
-http://localhost:3000 (or 3001 if port is busy)
 
-📌 Notes / Assumptions
-	•	Project has been tested and is running successfully on local system
-	•	MongoDB connection is configured for local testing
-	•	Live deployment is in progress
-	•	Screenshots of the working application are available
+	Backend setup:
+	cd backend
+	npm install
+	node server.js
 
-  📷 Screenshots
+	Backend will run on:
+	http://localhost:5000
 
-Screenshots included to demonstrate UI and functionality.
+	🔗 Local Preview
+
+After running both frontend and backend servers, the landing page can be viewed locally in the browser at:
+
+http://localhost//3000
+
+🌐 Deployment Status
+	•	Deployment was attempted using Netlify and Vercel.
+	•	Build issues occurred due to framework and configuration conflicts.
+	•	The project runs correctly in the local environment.
+	•	A live hosted link will be added once deployment issues are resolved.
+
+⸻
+
+✅ Key Features
+	•	Clean and responsive landing page UI
+	•	Component-based React structure
+	•	Organized backend setup using Node.js and Express
+	•	Clear separation of frontend and backend code
+
+⸻
+
+📌 Notes
+	•	This project is intended for evaluation and demonstration purposes.
+	•	Complete setup and run instructions are provided above for easy local testing.
+
+⸻
+
+👤 Author
+
+Name: Project Bisht
+Project: Talency Landing Page Clone
 

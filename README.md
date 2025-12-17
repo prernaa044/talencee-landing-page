@@ -2,7 +2,7 @@ Talencee – Landing Page Clone
 
 A responsive and dynamic clone of the Talencee landing page built as part of an assignment.
 
----
+--
 
 ## 🚀 Tech Stack
 

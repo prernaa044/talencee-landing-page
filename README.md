@@ -1,102 +1,131 @@
-Talency Landing Page Clone
+# Talencee Landing Page Clone
 
-📌 Project Overview
+This project is a full-stack MERN landing page clone developed as part of an assignment submission.  
+The objective was to recreate the Talencee landing page UI and implement a structured frontend-backend workflow following industry practices.
 
-This project is a clone of the Talency landing page, developed as part of an assignment.
-The goal of this project is to replicate the UI and basic structure of the original Talency website using modern web technologies.
+---
 
-The project is divided into frontend and backend folders and runs successfully in a local development environment.
+## 🔧 Tech Stack
 
-⸻
+### Frontend
+- React.js
+- HTML5
+- CSS3
+- JavaScript
+- Responsive UI
 
-🛠 Tech Stack
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- REST APIs
 
-Frontend
-	•	React
-	•	HTML5
-	•	CSS3
-	•	JavaScript
-	•	npm
+---
 
-Backend
-	•	Node.js
-	•	Express.js
-	•	npm
+## 📁 Project Structure
 
-	Project Structure
-	talency-landing-page/
+
+talencee-landing-page/
 │
-├── frontend/        # React frontend
+├── frontend/
 │   ├── public/
+│   │   ├── index.html
+│   │   ├── favicon.ico
+│   │   ├── manifest.json
+│   │   └── robots.txt
+│   │
 │   ├── src/
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   ├── index.js
+│   │   ├── index.css
+│   │   └── assets/
+│   │
 │   ├── package.json
-│   └── README.md
+│   └── package-lock.json
 │
-├── backend/         # Node.js backend
+├── backend/
+│   ├── models/
 │   ├── routes/
 │   ├── uploads/
-│   ├── app.js
+│   ├── jobs.json
 │   ├── server.js
 │   ├── package.json
-│   └── .env
-│
-└── README.md        # Project documentation
+│   └── package-lock.json
+__README.md
 
-🚀 How to Run the Project Locally
+---
 
-Prerequisites
+## ▶️ Run Project Locally
 
-Make sure the following are installed on your system:
-	•	Node.js (v16 or compatible)
-	•	npm
+### Frontend
+```bash
+cd frontend
+npm install
+npm start
 
-	Frontend Setup:
-	cd frontend
-	npm install
-	npm start
+Runs on:
+http://localhost:3000
 
-	Fronten will run on:
-	http://localhost:3000
+Backend
+cd backend
+npm install
+node server.js
+
+Runs on:
+http://localhost:5000
 
 
-	Backend setup:
-	cd backend
-	npm install
-	node server.js
+🌐 Deployment Details
 
-	Backend will run on:
-	http://localhost:5000
+Frontend Deployment
+	•	Frontend is deployed using Netlify
+	•	Netlify supports static frontend deployment only
 
-	🔗 Local Preview
-
-After running both frontend and backend servers, the landing page can be viewed locally in the browser at:
-
-http://localhost//3000
-
-🌐 Deployment Status
-	•	Deployment was attempted using Netlify and Vercel.
-	•	Build issues occurred due to framework and configuration conflicts.
-	•	The project runs correctly in the local environment.
-	•	A live hosted link will be added once deployment issues are resolved.
+Backend Deployment
+	•	Backend requires a Node.js server and environment variables
+	•	Backend deployment is not supported directly on Netlify
 
 ⸻
 
-✅ Key Features
-	•	Clean and responsive landing page UI
-	•	Component-based React structure
-	•	Organized backend setup using Node.js and Express
-	•	Clear separation of frontend and backend code
+⚠️ Submit Button & Email Clarification
+	•	The Submit button is fully functional locally
+	•	On Netlify:
+	•	Backend APIs are not connected
+	•	Hence form submission does not persist data
+	•	SMTP email service does not trigger
+
+Reason:
+
+Netlify does not support backend execution or SMTP services without a separate backend host.
 
 ⸻
 
-📌 Notes
-	•	This project is intended for evaluation and demonstration purposes.
-	•	Complete setup and run instructions are provided above for easy local testing.
+🔐 Environment Variables Required
+
+The backend requires the following environment variables to function fully:
+REGME_KEY=your_regme_key_here
+MONGO_URI=your_mongodb_connection
+SMTP_EMAIL=your_email
+SMTP_PASSWORD=your_password
+
+Without these environment variables:
+	•	Data submission will not be saved
+	•	Emails will not be sent
 
 ⸻
 
-👤 Author
+📝 Notes & Assumptions
+	•	This was my first full-scale MERN stack project
+	•	The focus was on:
+	•	Clean UI
+	•	Proper project structuring
+	•	Separation of frontend and backend
+	•	Significant time was spent learning deployment workflows
+	•	The project reflects both implementation and learning effort
 
-Name: Project Bisht
-Project: Talency Landing Page Clone
+Acknowledgement
+
+Thank you for reviewing this assignment.
+This project helped strengthen my understanding of full-stack development, debugging, and deployment practices.
 

@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "1",
+    "title": "Frontend Developer",
+    "location": "Remote",
+    "type": "Full Time",
+    "description": "Build modern React interfaces."
+  },
+  {
+    "_id": "2",
+    "title": "Backend Developer",
+    "location": "India",
+    "type": "Full Time",
+    "description": "Work with Node.js and MongoDB."
+  }
+]
